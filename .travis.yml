@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t heeyoonkim1/docker-react1 -f Dockerfile.dev .
+  - docker build -t heeyoonkim0405/docker-react1 -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true heeyoonkim1/docker-react1 npm run test
+  - docker run -e CI=true heeyoonkim0405/docker-react1 npm run test
